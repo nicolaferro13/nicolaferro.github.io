@@ -5,6 +5,6 @@ theme = 'nomad-tech'
 
 # Nomad tech
 [params]
-[parmas.contact]
+[params.contact]
 email = 'ferro.nicola@outlook.com'
 name = 'Nicola Ferro'

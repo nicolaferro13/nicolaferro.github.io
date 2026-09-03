@@ -1,4 +1,4 @@
 baseURL = 'https://nicolaferro13.github.io/'
 languageCode = 'en-en'
 title = 'nicolaferro'
-theme = 'ananke'
+theme = 'github.com/theNewDynamic/gohugo-theme-ananke'

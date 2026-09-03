@@ -2,3 +2,9 @@ baseURL = 'https://nicolaferro13.github.io/'
 languageCode = 'en-en'
 title = 'nicolaferro'
 theme = 'nomad-tech'
+
+# Nomad tech
+[params]
+[parmas.contact]
+email = 'ferro.nicola@outlook.com'
+name = 'Nicola Ferro'

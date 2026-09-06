@@ -1,104 +1,110 @@
-baseURL = "https://nicolaferro13.github.io/nicolaferro.github.io/"
-defaultContentLanguage = "en"
-theme = "nomad-tech"
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.157.0"
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
 
 [pagination]
-  pagerSize = 6
+  pagerSize = 10
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  tag = 'tags'
+  series = 'series'
 
-[languages]
-
-  [languages.en]
-    languageCode = "en-US"
-    title = "Nicola Ferro"
-    weight = 1  
-  [languages.it]
-    languageCode = "it-IT"
-    title = "Nicola Ferro"
-    weight = 2
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = false
+    lineNos = false
+    lineNumbersInTable = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['$$', '$$']]
+      inline = [['$', '$']]
 
 [params]
-  author = "Nicola Ferro
-#  logo = "NOMAD-TECH"
-#  subtitle = "Digital Nomad • Tech Explorer • Life Recorder"
-#  description = "Sharing tech insights, recording nomad life, providing practical guides"
+  math = false
+  share = true
+  imageOptimize = true
+  bannerSubtitle = '// blog × code × ideas'
 
-  # Analytics (optional)
-#  googleAnalytics = "G-2310RJEC91"
+  # === Content Limits ===
+  # homepagePostsLimit = 10
+  # cardSummaryLength = 150
+  # relatedPostsLimit = 3
+  # cardImageQuality = 80
+  # coverImageQuality = 85
+  # contentImageQuality = 90
 
-  # Social Media Links
-  [[params.social]]
-    name = "YouTube"
-    class = "youtube"
-    icon = "📺"
-    description = "Tech reviews and nomad vlogs"
-    url = "https://www.youtube.com/@GP_ARC"
-    button_text = "Visit Channel"
+  # === Banner Text ===
+  # bannerTitle = ''
+  # bannerHighlight = ''
 
-  [[params.social]]
-    name = "Twitter"
-    class = "wechat"
-    icon = "🐦"
-    description = "Tech thoughts and daily updates"
-    url = "https://x.com/m03315_"
-    button_text = "Follow Me"
+  # === Feature Toggles (default: true, set false to disable) ===
+  # enableLoadingAnimation = true
+  # enableMouseGlow = true
+  # showBanner = true
+  # showReadingProgress = true
+  # enableLightbox = true
+  # showScrollTop = true
+  # enableSearch = true
+  # showRelatedPosts = true
+  # showSeriesNav = true
+  # enableCodeCopy = true
+  # enableScrollAnimation = true
 
-  # Portfolio Items
-  [[params.portfolio]]
-    title = "Digital Nomad Community App"
-    type = "Mobile Application"
-    icon = "📱"
-    description = "A comprehensive platform for nomads to connect and collaborate"
-    tags = ["React Native", "Node.js", "MongoDB"]
-    project_url = "/projects/nomad-app/"
+  # === Share ===
+  # sharePlatforms = ['twitter', 'facebook', 'linkedin']
 
-  [[params.portfolio]]
-    title = "Another Project"
-    type = "Web Application"
-    icon = "🌐"
-    description = "Web application description"
-    tags = ["React", "Vue.js"]
+  # === Advanced: Custom CSS/JS ===
+  # customCSS = []
+  # customJS = []
+  # googleFontsURL = ''
 
-  # Travel Timeline
-  [[params.travels]]
-    city = "Bangkok"
-    country = "Thailand"
-    flag = "🇹🇭"
-    period = "2024.01 - 2024.03"
-    description = "Started my nomad journey in the vibrant capital of Thailand"
-    highlights = ["Co-working spaces", "Street food", "Tech meetups"]
+  # === Style Overrides ===
+  # [params.style]
+  #   colorAccent = '#4a7de0'
+  #   colorAccentWarm = '#e8609e'
+  #   colorAccentSoft = '#a78bfa'
+  #   fontDisplay = "'Outfit', sans-serif"
+  #   fontBody = "'Zen Maru Gothic', 'Noto Sans TC', sans-serif"
+  #   fontMono = "'JetBrains Mono', monospace"
+  #   bannerImageText = '#fff'
+  #   bannerImageSubtitle = 'rgba(255, 255, 255, 0.8)'
+  #   bannerImageGradient = 'linear-gradient(135deg, #4a7de0, #e8609e)'
+  #   bannerImageGradientFill = 'transparent'
 
-  [[params.travels]]
-    city = "Chiang Mai"
-    country = "Thailand"
-    flag = "🇹🇭"
-    period = "2024.04 - 2024.06"
-    description = "Digital nomad hub with amazing community and low cost of living"
-    highlights = ["Nomad Summit", "Temples", "Mountain views"]
+  # === Sidebar ===
+  # [params.sidebar]
+  #   showAllPosts = true
+  #   showCategories = true
+  #   showTags = true
+  #   showRecent = true
+  #   categoryLimit = 999
+  #   tagsLimit = 20
+  #   recentLimit = 5
+  #   tagWarmThreshold = 3
 
-  [[params.travels]]
-    city = "Bali"
-    country = "Indonesia"
-    flag = "🇮🇩"
-    period = "2024.07 - Present"
-    description = "Current base with perfect blend of work and surf lifestyle"
-    highlights = ["Surfing", "Rice terraces", "Startup scene"]
+[related]
+  includeNewer = true
+  threshold = 50
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
+    pattern = "2006"
 
-  # Contact Information
-  [[params.contact]]
-    icon = "📧"
-    name = "email"
-    value = "me@m03315.top"
-  
-  [[params.contact]]
-    icon = "💬"
-    name = "wechat"
-    value = "m03315_"
-  
-  [[params.contact]]
-    icon = "🐦"
-    name = "twitter"
-    value = "@m03315_"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

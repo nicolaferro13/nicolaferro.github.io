@@ -132,46 +132,46 @@ theme = 'hugo-theme-spectra'
       weight = 5
       pre = "◉"
 
-  [languages.it]
-    languageCode = 'it'
-    languageName = 'Italiano'
-    weight = 2
-    title = 'Spectra Demo'
+#  [languages.it]
+#    languageCode = 'it'
+#    languageName = 'Italiano'
+#    weight = 2
+#    title = 'Spectra Demo'
 
-    [languages.it.params]
-      description = ''
-      author = 'Nicola Ferro'
-      tagline = '// Developer'
-      bio = ''
-      #banner = '/images/demo02.jpg'
-      #avatar = '/images/avatar.webp'
+#    [languages.it.params]
+#      description = ''
+#      author = 'Nicola Ferro'
+#      tagline = '// Developer'
+#      bio = ''
+#      #banner = '/images/demo02.jpg'
+#      #avatar = '/images/avatar.webp'
 
-      [[languages.it.params.social]]
-        name = "GitHub"
-        url = "https://github.com/JoeYang1412"
-      [[languages.zh-tw.params.social]]
-        name = "Twitter"
-        url = "https://x.com/YangJoe0208"
-      [[languages.zh-tw.params.social]]
-        name = "hackmd"
-        url = "https://hackmd.io/@JoeYang"
+#      [[languages.it.params.social]]
+#        name = "GitHub"
+#        url = "https://github.com/JoeYang1412"
+#      [[languages.it-tw.params.social]]
+#        name = "Twitter"
+#        url = "https://x.com/YangJoe0208"
+#      [[languages.it-tw.params.social]]
+#        name = "hackmd"
+#        url = "https://hackmd.io/@JoeYang"
 
     # -- Navigation Menu --
-    [[languages.it.menus.main]]
-      name = ""
-      pageRef = "/"
-      weight = 1
-      pre = "⌂"
-    [[languages.it.menus.main]]
-      name = ""
-      pageRef = "/posts"
-      weight = 2
-      pre = "✎"
-    [[languages.it.menus.main]]
-      name = ""
-      pageRef = "/about"
-      weight = 5
-      pre = "◉"
+#    [[languages.it.menus.main]]
+#      name = ""
+#      pageRef = "/"
+#      weight = 1
+#      pre = "⌂"
+#    [[languages.it.menus.main]]
+#      name = ""
+#      pageRef = "/posts"
+#      weight = 2
+#      pre = "✎"
+#    [[languages.it.menus.main]]
+#      name = ""
+#      pageRef = "/about"
+#      weight = 5
+#      pre = "◉"
 
 
 

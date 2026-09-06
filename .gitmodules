@@ -4,3 +4,6 @@
 [submodule "nomad-tech"]
 	path = nomad-tech
 	url = https://github.com/m03315/nomad-tech
+[submodule "themes/hugo-theme-spectra"]
+	path = themes/hugo-theme-spectra
+	url = https://github.com/JoeYang1412/hugo-theme-spectra

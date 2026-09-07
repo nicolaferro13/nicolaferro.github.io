@@ -2,7 +2,7 @@
 title: "Math Formulas in Your Posts"
 date: 2025-02-15
 draft: false
-tags: [Spectra, KaTeX, Math]
+tags: [Spectra, KaTeX, Math, TEST]
 math: true
 cover: ""
 toc: true

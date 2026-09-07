@@ -102,19 +102,19 @@ theme = 'hugo-theme-spectra'
 
     [languages.en.params]
       description = 'A sci-fi fusion Hugo blog theme'
-      author = 'Your name'
+      author = 'Nicola Ferro'
       tagline = '// Developer'
       bio = 'This is a demo site showcasing all features of the Spectra theme.'
 
       [[languages.en.params.social]]
         name = "GitHub"
-        url = "https://github.com/JoeYang1412"
+        url = "https://github.com/nicolaferro13"
       [[languages.en.params.social]]
-        name = "Twitter"
-        url = "https://x.com/YangJoe0208"
-      [[languages.en.params.social]]
-        name = "hackmd"
-        url = "https://hackmd.io/@JoeYang"
+        name = "LinkedIn"
+        url = "www.linkedin.com/in/-nicolaferro"
+#      [[languages.en.params.social]]
+#        name = "hackmd"
+#        url = "https://hackmd.io/@JoeYang"
 
     [[languages.en.menus.main]]
       name = "Home"
@@ -122,15 +122,16 @@ theme = 'hugo-theme-spectra'
       weight = 1
       pre = "⌂"
     [[languages.en.menus.main]]
-      name = "Blog"
-      pageRef = "/posts"
-      weight = 2
-      pre = "✎"
-    [[languages.en.menus.main]]
       name = "About"
       pageRef = "/about"
-      weight = 5
+      weight = 2
       pre = "◉"
+    [[languages.en.menus.main]]
+      name = "Projects"
+      pageRef = "/posts"
+      weight = 3
+      pre = "✎"
+
 
 #  [languages.it]
 #    languageCode = 'it'

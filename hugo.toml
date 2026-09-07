@@ -98,7 +98,7 @@ theme = 'hugo-theme-spectra'
     languageCode = 'en'
     languageName = 'English'
     weight = 1
-    title = 'Spectra Demo'
+    title = ''
 
     [languages.en.params]
       description = ''
@@ -137,7 +137,7 @@ theme = 'hugo-theme-spectra'
      languageCode = 'it'
      languageName = 'Italiano'
      weight = 2
-     title = 'Spectra Demo'
+     title = ''
 
      [languages.it.params]
        description = ''

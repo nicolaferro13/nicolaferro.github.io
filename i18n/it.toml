@@ -45,7 +45,7 @@ other = "min di lettura"
 other = "Torna indietro"
 
 [blog_section]
-other = "Progetti"
+other = "Post"
 
 [toc_title]
 other = "Indice"
@@ -58,13 +58,13 @@ other = "Prossimo"
 
 # Index page
 [recent_posts]
-other = "Progetti recenti"
+other = "Post recenti"
 
 [latest_articles]
-other = "Ultimi progetti"
+other = "Ultimi post"
 
 [view_all_posts]
-other = "Vedi tutti i progetti"
+other = "Vedi tutti i post"
 
 # Footer
 [footer_text]
@@ -88,15 +88,15 @@ other = "Grid"
 other = "List"
 
 [posts_count]
-one = "progetto"
-other = "progetti"
+one = "post"
+other = "post"
 
 # Posts list
 [all_posts]
-other = "Tutti i progetti"
+other = "Tutti i post"
 
 [no_posts]
-other = "Nessun progetto"
+other = "Nessun post"
 
 # Accessibility
 [skip_to_content]
@@ -129,14 +129,14 @@ other = "Mostra/nascondi numeri di riga"
 
 # Related posts
 [related_posts]
-other = "Progetti correlati"
+other = "Post correlati"
 
 # Series
 [series]
 other = "Serie"
 
 [series_view_all]
-other = "Vedi tutti i progetti di questa serie"
+other = "Vedi tutti i post di questa serie"
 
 # Share buttons
 [share]
@@ -150,7 +150,7 @@ other = "Copia link"
 other = "Cerca"
 
 [search_placeholder]
-other = "Cerca tra i progetti..."
+other = "Cerca tra i post..."
 
 [search_close]
 other = "Chiudi ricerca"

@@ -111,7 +111,7 @@ theme = 'hugo-theme-spectra'
         url = "https://github.com/nicolaferro13"
       [[languages.en.params.social]]
         name = "LinkedIn"
-        url = "www.linkedin.com/in/-nicolaferro"
+        url = "https://www.linkedin.com/in/-nicolaferro/"
 #      [[languages.en.params.social]]
 #        name = "hackmd"
 #        url = "https://hackmd.io/@JoeYang"
@@ -133,47 +133,46 @@ theme = 'hugo-theme-spectra'
       pre = "✎"
 
 
-#  [languages.it]
-#    languageCode = 'it'
-#    languageName = 'Italiano'
-#    weight = 2
-#    title = 'Spectra Demo'
+   [languages.it]
+     languageCode = 'it'
+     languageName = 'Italiano'
+     weight = 2
+     title = 'Spectra Demo'
 
-#    [languages.it.params]
-#      description = ''
-#      author = 'Nicola Ferro'
-#      tagline = '// Developer'
-#      bio = ''
-#      #banner = '/images/demo02.jpg'
-#      #avatar = '/images/avatar.webp'
+     [languages.it.params]
+       description = ''
+       author = 'Nicola Ferro'
+       tagline = '// Developer'
+       bio = ''
+       #banner = '/images/demo02.jpg'
+       #avatar = '/images/avatar.webp'
 
-#      [[languages.it.params.social]]
-#        name = "GitHub"
-#        url = "https://github.com/JoeYang1412"
-#      [[languages.it-tw.params.social]]
-#        name = "Twitter"
-#        url = "https://x.com/YangJoe0208"
-#      [[languages.it-tw.params.social]]
+       [[languages.it.params.social]]
+         name = "GitHub"
+         url = "https://github.com/nicolaferro13"
+       [[languages.it.params.social]]
+         name = "LinkedIn"
+         url = "https://www.linkedin.com/in/-nicolaferro/"
+#       [[languages.it-tw.params.social]]
 #        name = "hackmd"
 #        url = "https://hackmd.io/@JoeYang"
 
     # -- Navigation Menu --
-#    [[languages.it.menus.main]]
-#      name = ""
-#      pageRef = "/"
-#      weight = 1
-#      pre = "⌂"
-#    [[languages.it.menus.main]]
-#      name = ""
-#      pageRef = "/posts"
-#      weight = 2
-#      pre = "✎"
-#    [[languages.it.menus.main]]
-#      name = ""
-#      pageRef = "/about"
-#      weight = 5
-#      pre = "◉"
-
+     [[languages.it.menus.main]]
+       name = "Home"
+       pageRef = "/"
+       weight = 1
+       pre = "⌂"
+     [[languages.it.menus.main]]
+       name = "Chi sono"
+       pageRef = "/about"
+       weight = 2
+       pre = "◉"
+     [[languages.it.menus.main]]
+       name = "Progetti"
+       pageRef = "/posts"
+       weight = 3
+       pre = "✎"
 
 
 [related]

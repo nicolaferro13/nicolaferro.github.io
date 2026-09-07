@@ -13,7 +13,7 @@ other = "Vedi tutto"
 other = "Tags"
 
 [recent]
-other = "Recenti
+other = "Recenti"
 
 # Theme toggle
 [light_mode]
@@ -64,7 +64,7 @@ other = "Articoli recenti"
 other = "Ultimi articoli"
 
 [view_all_posts]
-other = "Vedi tutti gli articoli
+other = "Vedi tutti gli articoli"
 
 # Footer
 [footer_text]

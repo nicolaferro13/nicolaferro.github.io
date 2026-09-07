@@ -100,6 +100,12 @@ theme = 'hugo-theme-spectra'
     weight = 1
     title = ''
 
+  [params.en]
+    math = false
+    share = true
+    imageOptimize = true
+    bannerSubtitle = 'Energy and Nuclear Engineer'
+
     [languages.en.params]
       description = ''
       author = 'Nicola Ferro'
@@ -138,6 +144,12 @@ theme = 'hugo-theme-spectra'
      languageName = 'Italiano'
      weight = 2
      title = ''
+
+   [params.it]
+    math = false
+    share = true
+    imageOptimize = true
+    bannerSubtitle = 'Ingegnere Energetico e Nucleare'
 
      [languages.it.params]
        description = ''

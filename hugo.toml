@@ -101,10 +101,10 @@ theme = 'hugo-theme-spectra'
     title = 'Spectra Demo'
 
     [languages.en.params]
-      description = 'A sci-fi fusion Hugo blog theme'
+      description = ''
       author = 'Nicola Ferro'
-      tagline = '// Developer'
-      bio = 'This is a demo site showcasing all features of the Spectra theme.'
+      tagline = 'Reach out!'
+      bio = ''
 
       [[languages.en.params.social]]
         name = "GitHub"
@@ -142,7 +142,7 @@ theme = 'hugo-theme-spectra'
      [languages.it.params]
        description = ''
        author = 'Nicola Ferro'
-       tagline = '// Developer'
+       tagline = 'Contattami!'
        bio = ''
        #banner = '/images/demo02.jpg'
        #avatar = '/images/avatar.webp'

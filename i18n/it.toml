@@ -1,169 +1,169 @@
 # Sidebar navigation
 [nav_label]
-other = "導覽"
+other = "Navigazione"
 
 # Sidebar sections
 [categories]
-other = "分類"
+other = "Categorie"
 
 [view_all]
-other = "查看全部"
+other = "Vedi tutto"
 
 [tags]
-other = "標籤"
+other = "Tags"
 
 [recent]
-other = "最新文章"
+other = "Recenti
 
 # Theme toggle
 [light_mode]
-other = "淺色模式"
+other = "Light mode"
 
 [dark_mode]
-other = "深色模式"
+other = "Dark mode"
 
 # Banner
 [banner_welcome]
-other = "歡迎來到"
+other = "Ciao! Sono Nicola Ferro"
 
 [banner_subtitle]
-other = "// 部落格 × 程式碼 × 靈感"
+other = "Ingegnere Energetico e Nucleare"
 
 [welcome_sub]
-other = "探索 · 創作 · 啟發"
+other = ""
 
 # Loading
 [loading]
-other = "載入中"
+other = "CARICAMENTO"
 
 # Post meta
 [min_read]
-other = "分鐘閱讀"
+other = "min di lettura"
 
 # Posts single
 [go_back]
-other = "返回上一頁"
+other = "Torna indietro"
 
 [blog_section]
-other = "文章"
+other = "Progetti"
 
 [toc_title]
-other = "目錄"
+other = "Indice"
 
 [prev_post]
-other = "上一篇"
+other = "Precedente"
 
 [next_post]
-other = "下一篇"
+other = "Prossimo"
 
 # Index page
 [recent_posts]
-other = "最新文章"
+other = "Articoli recenti"
 
 [latest_articles]
-other = "最新文章列表"
+other = "Ultimi articoli"
 
 [view_all_posts]
-other = "查看所有文章"
+other = "Vedi tutti gli articoli
 
 # Footer
 [footer_text]
-other = "Powered by Hugo × Styled by Spectra"
+other = ""
 
 # Code copy (JS)
 [code_copy]
-other = "複製"
+other = "Copy"
 
 [code_copied]
-other = "已複製！"
+other = "Copied!"
 
 [code_fallback]
-other = "程式碼"
+other = "CODE"
 
 # Terms page
 [grid_view]
-other = "格狀"
+other = "Grid"
 
 [list_view]
-other = "列表"
+other = "List"
 
 [posts_count]
-one = "篇文章"
-other = "篇文章"
+one = "articolo"
+other = "articoli"
 
 # Posts list
 [all_posts]
-other = "所有文章"
+other = "Tutti gli articoli"
 
 [no_posts]
-other = "尚無文章。"
+other = "Nessun articolo"
 
 # Accessibility
 [skip_to_content]
-other = "跳至主要內容"
+other = "Salta al contenuto"
 
 [toggle_theme]
-other = "切換主題"
+other = "Cambia tema"
 
 # Copyright
 [copyright]
-other = "保留所有權利。"
+other = "Tutti i diritti riservati"
 
 # 404 page
 [error_404_title]
-other = "找不到頁面"
+other = "Pagina non trovata"
 
 [error_404_message]
-other = "您尋找的頁面不存在或已被移動。"
+other = "La pagina che stai cercando non esiste o è stata spostata"
 
 [error_404_back]
-other = "返回首頁"
+other = "Torna alla Home"
 
 # Scroll to top
 [scroll_to_top]
-other = "回到頂部"
+other = "Torna in alto"
 
 # Code block enhancements
 [toggle_line_numbers]
-other = "切換行號"
+other = "Mostra/nascondi numeri di riga"
 
 # Related posts
 [related_posts]
-other = "相關文章"
+other = "Articoli correlati"
 
 # Series
 [series]
-other = "系列"
+other = "Serie"
 
 [series_view_all]
-other = "查看本系列所有文章"
+other = "Vedi tutti gli articoli di questa serie"
 
 # Share buttons
 [share]
-other = "分享"
+other = "Condividi"
 
 [share_copy_link]
-other = "複製連結"
+other = "Copia link"
 
 # Search
 [search]
-other = "搜尋"
+other = "Cerca"
 
 [search_placeholder]
-other = "搜尋文章..."
+other = "Cerca tra gli articoli..."
 
 [search_close]
-other = "關閉搜尋"
+other = "Chiudi ricerca"
 
 [search_hint]
-other = "輸入關鍵字搜尋文章"
+other = "Scrivi per cercare"
 
 [search_no_results]
-other = "找不到相關文章"
+other = "Nessun risultato trovato"
 
 [search_loading]
-other = "搜尋索引載入中..."
+other = "Caricamento indice di ricerca..."
 
 # No-JS notice
 [noscript_notice]
-other = "部分功能（搜尋、主題切換、動畫效果）需要 JavaScript 才能運作。"
+other = "Alcune funzionalità (ricerca, cambio tema, animazioni) richiedono JavaScript per funzionare"

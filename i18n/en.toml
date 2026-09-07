@@ -7,7 +7,7 @@ other = "Navigation"
 other = "Categories"
 
 [view_all]
-other = "View All"
+other = "View all"
 
 [tags]
 other = "Tags"
@@ -17,10 +17,10 @@ other = "Recent"
 
 # Theme toggle
 [light_mode]
-other = "Light Mode"
+other = "Light mode"
 
 [dark_mode]
-other = "Dark Mode"
+other = "Dark mode"
 
 # Banner
 [banner_welcome]
@@ -30,7 +30,7 @@ other = "Hi! I'm Nicola Ferro"
 other = "Energy and Nuclear Engineer"
 
 [welcome_sub]
-other = "explore · create · inspire"
+other = ""
 
 # Loading
 [loading]
@@ -45,7 +45,7 @@ other = "min read"
 other = "Go back"
 
 [blog_section]
-other = "Blog"
+other = "Projects"
 
 [toc_title]
 other = "Contents"
@@ -58,18 +58,17 @@ other = "Next"
 
 # Index page
 [recent_posts]
-other = "Recent Posts"
+other = "Recent posts"
 
 [latest_articles]
-other = "Latest Articles"
+other = "Latest articles"
 
 [view_all_posts]
 other = "View all posts"
 
 # Footer
 [footer_text]
-other = "Powered by Hugo × Styled by Spectra"
-
+other = ""
 # Code copy (JS)
 [code_copy]
 other = "Copy"
@@ -96,7 +95,7 @@ other = "posts"
 other = "All Posts"
 
 [no_posts]
-other = "No posts yet."
+other = "No posts yet"
 
 # Accessibility
 [skip_to_content]
@@ -107,14 +106,14 @@ other = "Toggle theme"
 
 # Copyright
 [copyright]
-other = "All Rights Reserved."
+other = "All rights reserved"
 
 # 404 page
 [error_404_title]
-other = "Page Not Found"
+other = "Page not found"
 
 [error_404_message]
-other = "The page you are looking for does not exist or has been moved."
+other = "The page you are looking for does not exist or has been moved"
 
 [error_404_back]
 other = "Back to Home"
@@ -129,7 +128,7 @@ other = "Toggle line numbers"
 
 # Related posts
 [related_posts]
-other = "Related Posts"
+other = "Related posts"
 
 # Series
 [series]
@@ -166,4 +165,4 @@ other = "Loading search index..."
 
 # No-JS notice
 [noscript_notice]
-other = "Some features (search, theme toggle, animations) require JavaScript to work."
+other = "Some features (search, theme toggle, animations) require JavaScript to work"

@@ -27,10 +27,10 @@ other = "Dark mode"
 other = "Ciao! Sono Nicola Ferro"
 
 [banner_subtitle]
-other = "Ingegnere Energetico e Nucleare"
+other = ""
 
 [welcome_sub]
-other = ""
+other = "Ingegnere Energetico e Nucleare"
 
 # Loading
 [loading]
@@ -58,13 +58,13 @@ other = "Prossimo"
 
 # Index page
 [recent_posts]
-other = "Articoli recenti"
+other = "Progetti recenti"
 
 [latest_articles]
-other = "Ultimi articoli"
+other = "Ultimi progetti""
 
 [view_all_posts]
-other = "Vedi tutti gli articoli"
+other = "Vedi tutti i progetti"
 
 # Footer
 [footer_text]
@@ -88,15 +88,15 @@ other = "Grid"
 other = "List"
 
 [posts_count]
-one = "articolo"
-other = "articoli"
+one = "progetto"
+other = "progetti"
 
 # Posts list
 [all_posts]
-other = "Tutti gli articoli"
+other = "Tutti i progetti"
 
 [no_posts]
-other = "Nessun articolo"
+other = "Nessun progetto"
 
 # Accessibility
 [skip_to_content]
@@ -129,14 +129,14 @@ other = "Mostra/nascondi numeri di riga"
 
 # Related posts
 [related_posts]
-other = "Articoli correlati"
+other = "Progetti correlati"
 
 # Series
 [series]
 other = "Serie"
 
 [series_view_all]
-other = "Vedi tutti gli articoli di questa serie"
+other = "Vedi tutti i progetti di questa serie"
 
 # Share buttons
 [share]
@@ -150,7 +150,7 @@ other = "Copia link"
 other = "Cerca"
 
 [search_placeholder]
-other = "Cerca tra gli articoli..."
+other = "Cerca tra i progetti..."
 
 [search_close]
 other = "Chiudi ricerca"

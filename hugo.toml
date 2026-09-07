@@ -70,7 +70,16 @@ theme = 'hugo-theme-spectra'
     tagsLimit = 20
     recentLimit = 5
     # tagWarmThreshold = 3   # 文章數 >= 此值的標籤顯示粉色（不設定則自動計算）
-
+  [params.en]
+    math = false
+    share = true
+    imageOptimize = true
+    bannerSubtitle = 'Energy and Nuclear Engineer'
+  [params.it]
+    math = false
+    share = true
+    imageOptimize = true
+    bannerSubtitle = 'Ingegnere Energetico e Nucleare'
 [markup]
   [markup.highlight]
     guessSyntax = true
@@ -100,11 +109,7 @@ theme = 'hugo-theme-spectra'
     weight = 1
     title = ''
 
-  [params.en]
-    math = false
-    share = true
-    imageOptimize = true
-    bannerSubtitle = 'Energy and Nuclear Engineer'
+
 
     [languages.en.params]
       description = ''
@@ -145,11 +150,7 @@ theme = 'hugo-theme-spectra'
      weight = 2
      title = ''
 
-   [params.it]
-    math = false
-    share = true
-    imageOptimize = true
-    bannerSubtitle = 'Ingegnere Energetico e Nucleare'
+
 
      [languages.it.params]
        description = ''

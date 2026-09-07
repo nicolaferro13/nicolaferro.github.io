@@ -27,10 +27,10 @@ other = "Dark mode"
 other = "Hi! I'm Nicola Ferro"
 
 [banner_subtitle]
-other = "Energy and Nuclear Engineer"
+other = ""
 
 [welcome_sub]
-other = ""
+other = "Energy and Nuclear Engineer"
 
 # Loading
 [loading]
@@ -61,7 +61,7 @@ other = "Next"
 other = "Recent posts"
 
 [latest_articles]
-other = "Latest articles"
+other = "Latest posts"
 
 [view_all_posts]
 other = "View all posts"
@@ -92,7 +92,7 @@ other = "posts"
 
 # Posts list
 [all_posts]
-other = "All Posts"
+other = "All posts"
 
 [no_posts]
 other = "No posts yet"

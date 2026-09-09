@@ -146,7 +146,7 @@ theme = 'hugo-theme-spectra'
        tagline = 'Contattami!'
        bio = ''
        #banner = '/images/demo02.jpg'
-       #avatar = '/images/avatar.webp'
+       avatar = '/assets/images/Photo_Nicola_Scaled.png'
        bannerSubtitle = 'Ingegnere Energetico e Nucleare'
 
        [[languages.it.params.social]]

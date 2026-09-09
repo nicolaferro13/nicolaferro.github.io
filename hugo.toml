@@ -51,14 +51,14 @@ theme = 'hugo-theme-spectra'
   # === Style Overrides ===
   [params.style]
     colorAccent = '#F92F24'   #'#4a7de0'
-    colorAccentWarm = '#EEF924'#'#e8609e'
+    colorAccentWarm = '#F9A20B'#'#e8609e'
     colorAccentSoft = 'F99924'#'#a78bfa'
     fontDisplay = "'Outfit', sans-serif"
     fontBody = "'Zen Maru Gothic', 'Noto Sans TC', sans-serif"
     fontMono = "'JetBrains Mono', monospace"
     bannerImageText = '#fff'
     # bannerImageSubtitle = 'rgba(255, 255, 255, 0.8)'
-    bannerImageGradient = 'linear-gradient(135deg, #F92F24, #EEF924)' #'linear-gradient(135deg, #4a7de0, #e8609e)'
+    bannerImageGradient = 'linear-gradient(135deg, #F92F24, #F9A20B)' #'linear-gradient(135deg, #4a7de0, #e8609e)'
     bannerImageGradientFill = 'transparent'
 
   [params.sidebar]

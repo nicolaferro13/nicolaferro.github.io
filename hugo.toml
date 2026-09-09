@@ -114,7 +114,7 @@ theme = 'hugo-theme-spectra'
         name = "LinkedIn"
         url = "https://www.linkedin.com/in/-nicolaferro/"
       [[languages.en.params.social]]
-        name = "mail"
+        name = "email"
         url = "mailto:ferro.nicola@outlook.com"
 
     [[languages.en.menus.main]]

@@ -52,7 +52,7 @@ theme = 'hugo-theme-spectra'
   [params.style]
     colorAccent = '#F92F24'   #'#4a7de0'
     colorAccentWarm = '#EEF924'#'#e8609e'
-    colorAccentSoft = '#a78bfa'
+    colorAccentSoft = 'F99924'#'#a78bfa'
     fontDisplay = "'Outfit', sans-serif"
     fontBody = "'Zen Maru Gothic', 'Noto Sans TC', sans-serif"
     fontMono = "'JetBrains Mono', monospace"

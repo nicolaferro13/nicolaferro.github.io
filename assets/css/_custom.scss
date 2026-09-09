@@ -1,7 +1,0 @@
-//Custom file for removing the boundaries
-
-body::before,
-body::after {
-  display: none !important;
-  content: none !important;
-}

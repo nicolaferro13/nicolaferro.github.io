@@ -7,3 +7,6 @@
 [submodule "themes/hugo-theme-spectra"]
 	path = themes/hugo-theme-spectra
 	url = https://github.com/JoeYang1412/hugo-theme-spectra
+[submodule "themes/E25DX"]
+	path = themes/E25DX
+	url = https://github.com/dumindu/E25DX.git

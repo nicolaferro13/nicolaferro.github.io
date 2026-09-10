@@ -41,15 +41,16 @@ params:
     # To omit the startYear, put a ~ in its place.
     startYear: ~
     presentYear: 2026
-    repo:
-      main:
+
+#    repo:
+#      main:
     themeColor:
       light: '#ffffff'
       dark: '#101010'
 
   author:
     name: Nicola Ferro
-    url: https://github.com/nicolaferro13
+#    url: https://github.com/nicolaferro13
 
   pagination:
     size: 6

@@ -42,7 +42,7 @@ params:
     startYear: ~
     presentYear: 2026
     repo:
-      main: nicolaferro13/nicolaferro.github.io
+      main:
     themeColor:
       light: '#ffffff'
       dark: '#101010'

@@ -13,9 +13,9 @@ languages:
     languageName: English
     languageCode: en-US
     contentDir: content/en
-    title: nicolaferro-site
+    title: Nicola Ferro
     params:
-      description: Nicola_Ferro_Personal_Site_v2
+      description: Personal Site
 
 # To omit the Google Analytics script, put a ~ in place of the G-XXXXXXXXXX below.
 services:
@@ -49,7 +49,7 @@ params:
 
   author:
     name: Nicola Ferro
-    url: https://github.com/nicolaferro13
+    url: https://github.com/nicolaferro13/nicolaferro.github.io
 
   pagination:
     size: 6

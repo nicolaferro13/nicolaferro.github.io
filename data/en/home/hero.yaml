@@ -11,5 +11,5 @@ btn_primary:
   url: 
 
 btn_secondary:
-  label: Contribute
-  url: https://github.com/dumindu/e25dx
+  label: ""
+  url: ""

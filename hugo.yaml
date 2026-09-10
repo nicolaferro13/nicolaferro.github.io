@@ -42,17 +42,44 @@ params:
     startYear: ~
     presentYear: 2026
     repo:
-      main: username/repo
+      main: nicolaferro13/nicolaferro.github.io
     themeColor:
       light: '#ffffff'
       dark: '#101010'
 
   author:
     name: Nicola Ferro
-    url: https://github.com/nicolaferro13/nicolaferro.github.io
+    url: https://github.com/nicolaferro13
 
   pagination:
     size: 6
 
   enableOGXSEO: false # No automated OG image generation
   enablePageFind: false # Run pagefind --site dir after build
+
+menus:
+  main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 1
+      params:
+        icon: home
+    - identifier: docs
+      name: Documentation
+      pageRef: /docs
+      weight: 2
+      params:
+        icon: menu_book
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
+      weight: 3
+      params:
+        icon: news
+    - identifier: about
+      name: About Me
+      pageRef: /page/about
+      weight: 4
+      params:
+        icon: account_circle

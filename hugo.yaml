@@ -13,9 +13,9 @@ languages:
     languageName: English
     languageCode: en-US
     contentDir: content/en
-    title: Site Name
+    title: nicolaferro-site
     params:
-      description: Site Description
+      description: Nicola_Ferro_Personal_Site_v2
 
 # To omit the Google Analytics script, put a ~ in place of the G-XXXXXXXXXX below.
 services:
@@ -39,7 +39,7 @@ markup:
 params:
   project:
     # To omit the startYear, put a ~ in its place.
-    startYear: 2024
+    startYear: ~
     presentYear: 2026
     repo:
       main: username/repo
@@ -48,8 +48,8 @@ params:
       dark: '#101010'
 
   author:
-    name: Name
-    url: https://github.com/username
+    name: Nicola Ferro
+    url: https://github.com/nicolaferro13
 
   pagination:
     size: 6

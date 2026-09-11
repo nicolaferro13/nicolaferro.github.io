@@ -1,4 +1,4 @@
-{{ $path := printf "assets/icons/%s.svg" . }}
+{{ $path := printf "icons/%s.svg" . }}
 {{ with resources.Get $path }}
 	{{ .Content | safeHTML }}
 {{ else }}

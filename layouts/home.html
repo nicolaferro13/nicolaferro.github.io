@@ -55,6 +55,7 @@
 
 		<main>
 			{{ partial "sections/hero.html" (index site.Data site.Language.Lang "home" "hero") }}
+			{{ partial "sections/tech-stack.html" . }}
 			{{ with site.GetPage "/home/showcase" }}{{ partial "sections/showcase.html" . }}{{ end }}
 			{{ partial "sections/card-grid.html" (index site.Data site.Language.Lang "home" "card-grid") }}
 		</main>

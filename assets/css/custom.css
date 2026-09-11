@@ -1,0 +1,69 @@
+#site-header-logo .logo_inverse {
+  display: none !important;
+}
+#site-header-logo .logo {
+  display: block !important;
+}
+
+html[data-theme="dark"] #site-header-logo .logo,
+body.dark #site-header-logo .logo {
+  display: none !important;
+}
+
+html[data-theme="dark"] #site-header-logo .logo_inverse,
+body.dark #site-header-logo .logo_inverse {
+  display: block !important;
+}
+
+/* ==========================================================================
+   2. MENU A TENDINA CONTATTI (DROPDOWN)
+   ========================================================================== */
+.contacts-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.contacts-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: var(--bg-surface, #1e1e1e);
+  border: 1px solid var(--border, #333);
+  border-radius: 8px;
+  min-width: 150px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  padding: 6px 0;
+}
+
+.contacts-menu a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  color: var(--text-main, #ffffff);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.contacts-menu a:hover {
+  background-color: var(--bg-hover, rgba(255, 255, 255, 0.1));
+}
+
+.contacts-dropdown:hover .contacts-menu,
+.contacts-dropdown:focus-within .contacts-menu {
+  display: block;
+}

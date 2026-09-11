@@ -15,9 +15,6 @@ body.dark #site-header-logo .logo_inverse {
   display: block !important;
 }
 
-/* ==========================================================================
-   2. MENU A TENDINA CONTATTI (DROPDOWN)
-   ========================================================================== */
 .contacts-dropdown {
   position: relative;
   display: inline-block;

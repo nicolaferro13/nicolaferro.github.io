@@ -1,3 +1,8 @@
+{{ with resources.Get "css/custom.css" }}
+	{{ $css := . | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+	{{ end }}
+
 <header id="site-header">
 	<div id="site-header-logo">
 		<a href="{{ site.Home.Permalink }}">

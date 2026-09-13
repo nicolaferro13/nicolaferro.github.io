@@ -74,6 +74,13 @@ body.dark #site-header-logo .logo-dark {
 /*  color: rgba(255, 0, 0, 1); /* Dropdown window back color  */
 }
 
+#contacts-dropdown .contacts-menu a[aria-label="Mail"] svg {
+  color: #333333;
+}
+:root[data-color="dark"] #contacts-dropdown .contacts-menu a[aria-label="Mail"] svg {
+  color: #ffffff;
+}
+
 #contacts-dropdown .contacts-menu a:hover {
 /*  background-color: rgba(255, 255, 255, 0.15); */
 /*  background-color: rgba(0, 255, 0, 1); /*TESTED*/ /* Dropdown window hover color*/

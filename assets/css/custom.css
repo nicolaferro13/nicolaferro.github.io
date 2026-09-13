@@ -43,7 +43,7 @@ body.dark #site-header-logo .logo-dark {
 /*  background-color: #6b7280; */
 /*  background-color: rgba(0, 255, 0, 1); /* ReachMe Button Triggered  */
 /*  color: #ffffff; */
-  color: rgba(220, 220, 220, .35); /* ReachMe_Word Triggered  */
+/*  color: rgba(220, 220, 220, .35); /* ReachMe_Word Triggered  */
 }
 
 #contacts-dropdown .contacts-menu {
@@ -55,7 +55,7 @@ body.dark #site-header-logo .logo-dark {
   flex-direction: column;
   gap: 2px;
 /*  background-color: #6b7280; /* grigio fisso: uguale in dark e light mode */
-  background-color: rgba(0, 0, 255, 1); /*TESTED*/
+  background-color: rgba(220, 220, 220, .35); /* Dropdown window color */
 /*  border-radius: 8px; */
   border-radius: 6px;
   padding: 6px;
@@ -71,12 +71,12 @@ body.dark #site-header-logo .logo-dark {
   padding: 8px;
   border-radius: 6px;
 /*  color: #ffffff; */
-  color: rgba(255, 0, 0, 1); /*TESTED*/ /* ?  */
+/*  color: rgba(255, 0, 0, 1); /* Dropdown window back color  */
 }
 
 #contacts-dropdown .contacts-menu a:hover {
 /*  background-color: rgba(255, 255, 255, 0.15); */
-  background-color: rgba(0, 255, 0, 1); /*TESTED*/
+/*  background-color: rgba(0, 255, 0, 1); /*TESTED*/ /* Dropdown window hover color*/
 }
 
 #contacts-dropdown .contacts-menu svg {

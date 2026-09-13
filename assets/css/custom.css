@@ -28,7 +28,7 @@ body.dark #site-header-logo .logo-dark {
   border-radius: 6px;
   border: 1px solid #6b7280;
 /*  color: #6b7280; */
-  color: (220, 220, 220, 0.35);
+  color: (0, 0, 255, 1); /*TESTED*/
   font-size: 0.85rem;
   user-select: none;
 }
@@ -41,9 +41,9 @@ body.dark #site-header-logo .logo-dark {
 
 #contacts-dropdown[open] #contacts-trigger {
 /*  background-color: #6b7280; */
-  background-color: (0, 255, 0, 1); /*AAAAAAAAAA*/
+  background-color: (0, 255, 0, 1); /*TESTED*/ /* ?  */
 /*  color: #ffffff; */
-  color: (255, 0, 0, 1); /*AAAAAAAAAA*/
+  color: (255, 0, 0, 1); /*TESTED*/ /* ?  */
 }
 
 #contacts-dropdown .contacts-menu {
@@ -55,7 +55,7 @@ body.dark #site-header-logo .logo-dark {
   flex-direction: column;
   gap: 2px;
 /*  background-color: #6b7280; /* grigio fisso: uguale in dark e light mode */
-  background-color: (0, 0, 255, 1); /*AAAAAAAAAA*/
+  background-color: (0, 0, 255, 1); /*TESTED*/ /* ?  */
 /*  border-radius: 8px; */
   border-radius: 6px;
   padding: 6px;
@@ -71,12 +71,12 @@ body.dark #site-header-logo .logo-dark {
   padding: 8px;
   border-radius: 6px;
 /*  color: #ffffff; */
-  color: (255, 255, 255, 1);
+  color: (255, 255, 255, 1); /*TESTED*/ /* ?  */
 }
 
 #contacts-dropdown .contacts-menu a:hover {
 /*  background-color: rgba(255, 255, 255, 0.15); */
-  background-color: rgba(220, 220, 220, 0.35);
+  background-color: rgba(255, 255, 255, 1); /*TESTED*/
 }
 
 #contacts-dropdown .contacts-menu svg {

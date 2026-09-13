@@ -28,7 +28,7 @@ body.dark #site-header-logo .logo-dark {
   border-radius: 6px;
   border: 1px solid #6b7280;
 /*  color: #6b7280; */
-  color: (0, 0, 255, 1); /*TESTED*/
+  color: rgba(0, 0, 255, 1); /*TESTED*/
   font-size: 0.85rem;
   user-select: none;
 }
@@ -41,9 +41,9 @@ body.dark #site-header-logo .logo-dark {
 
 #contacts-dropdown[open] #contacts-trigger {
 /*  background-color: #6b7280; */
-  background-color: (0, 255, 0, 1); /*TESTED*/ /* ?  */
+  background-color: rgba(0, 255, 0, 1); /*TESTED*/ /* ?  */
 /*  color: #ffffff; */
-  color: (255, 0, 0, 1); /*TESTED*/ /* ?  */
+  color: rgba(255, 0, 0, 1); /*TESTED*/ /* ?  */
 }
 
 #contacts-dropdown .contacts-menu {
@@ -71,7 +71,7 @@ body.dark #site-header-logo .logo-dark {
   padding: 8px;
   border-radius: 6px;
 /*  color: #ffffff; */
-  color: (255, 255, 255, 1); /*TESTED*/ /* ?  */
+  color: rgba(255, 255, 255, 1); /*TESTED*/ /* ?  */
 }
 
 #contacts-dropdown .contacts-menu a:hover {

@@ -1,8 +1,8 @@
 <header id="site-header">
 	<div id="site-header-logo">
 		<a href="{{ site.Home.Permalink }}">
-			<img class="logo-dark" height="52px" src="{{ "logo_1.svg" | absURL }}" alt="Site Logo">
-			<img class="logo-light" height="52px" src="{{ "logo_2.svg" | absURL }}" alt="Site Logo">
+			<img class="logo-dark" height="52px" src="{{ "static/assets/icons/logo_inverse.svg" | absURL }}" alt="Site Logo">
+			<img class="logo-light" height="52px" src="{{ "static/assets/icons/logo.svg" | absURL }}" alt="Site Logo">
 		</a>
 	</div>
 
@@ -13,10 +13,6 @@
 		</div>
 
 		{{ partial "components/theme-dropdown.html" . }}
-
-		<a id="repo-main" aria-label="Repository URL" href="{{ site.Params.project.repo.main }}" target="_blank">
-			{{ partial "icon.html" "github" }}
-		</a>
 
 		<details id="contacts-dropdown">
 			<summary id="contacts-trigger">Reach me!</summary>

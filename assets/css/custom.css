@@ -1,66 +1,78 @@
-#site-header-logo .logo_inverse {
-  display: none !important;
+/* --- Logo: dark/light --- */
+#site-header-logo .logo-light {
+  display: block;
 }
-#site-header-logo .logo {
-  display: block !important;
-}
-
-html[data-theme="dark"] #site-header-logo .logo,
-body.dark #site-header-logo .logo {
-  display: none !important;
-}
-
-html[data-theme="dark"] #site-header-logo .logo_inverse,
-body.dark #site-header-logo .logo_inverse {
-  display: block !important;
-}
-
-.contacts-dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.contacts-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: inherit;
-}
-
-.contacts-menu {
+#site-header-logo .logo-dark {
   display: none;
+}
+
+html[data-theme="dark"] #site-header-logo .logo-light,
+body.dark #site-header-logo .logo-light {
+  display: none;
+}
+html[data-theme="dark"] #site-header-logo .logo-dark,
+body.dark #site-header-logo .logo-dark {
+  display: block;
+}
+
+/* --- Menu contatti --- */
+#contacts-dropdown {
+  position: relative;
+  margin-left: 8px;
+}
+
+#contacts-trigger {
+  cursor: pointer;
+  list-style: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #6b7280;
+  color: #6b7280;
+  font-size: 0.85rem;
+  user-select: none;
+}
+#contacts-trigger::-webkit-details-marker {
+  display: none;
+}
+#contacts-trigger::marker {
+  content: "";
+}
+
+#contacts-dropdown[open] #contacts-trigger {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+
+#contacts-dropdown .contacts-menu {
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: var(--bg-surface, #1e1e1e);
-  border: 1px solid var(--border, #333);
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background-color: #6b7280; /* grigio fisso: uguale in dark e light mode */
   border-radius: 8px;
-  min-width: 150px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 6px;
+  min-width: 44px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 1000;
-  padding: 6px 0;
 }
 
-.contacts-menu a {
+#contacts-dropdown .contacts-menu a {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  color: var(--text-main, #ffffff);
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 6px;
+  color: #ffffff;
 }
 
-.contacts-menu a:hover {
-  background-color: var(--bg-hover, rgba(255, 255, 255, 0.1));
+#contacts-dropdown .contacts-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
-.contacts-dropdown:hover .contacts-menu,
-.contacts-dropdown:focus-within .contacts-menu {
-  display: block;
+#contacts-dropdown .contacts-menu svg {
+  width: 20px;
+  height: 20px;
 }

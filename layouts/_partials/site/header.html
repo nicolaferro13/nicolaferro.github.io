@@ -1,13 +1,8 @@
-{{ with resources.Get "css/custom.css" }}
-	{{ $css := . | minify | fingerprint }}
-	<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
-	{{ end }}
-
 <header id="site-header">
 	<div id="site-header-logo">
 		<a href="{{ site.Home.Permalink }}">
-			<img height="52px" src="{{ "assets/icons/logo.svg" | absURL }}" alt="Site Logo">
-			<img height="52px" src="{{ "assets/icons/logo_inverse.svg" | absURL }}" alt="Site Logo">
+			<img class="logo-dark" height="52px" src="{{ "logo_1.svg" | absURL }}" alt="Site Logo">
+			<img class="logo-light" height="52px" src="{{ "logo_2.svg" | absURL }}" alt="Site Logo">
 		</a>
 	</div>
 
@@ -19,22 +14,24 @@
 
 		{{ partial "components/theme-dropdown.html" . }}
 
-		<div class="contacts-dropdown">
-			<button class="contacts-btn" aria-label="Reach me!">
-			{{partial "icon.html" "connect_without_contact"}}
-			</button>
+		<a id="repo-main" aria-label="Repository URL" href="{{ site.Params.project.repo.main }}" target="_blank">
+			{{ partial "icon.html" "github" }}
+		</a>
+
+		<details id="contacts-dropdown">
+			<summary id="contacts-trigger">Reach me!</summary>
 			<div class="contacts-menu">
-				<a href="" target="_blank" rel="noopener noreferrer">
-				{{ partial "icon.html" "linkedin" }} LinkedIn
+				<a href="https://www.linkedin.com/in/TUO-PROFILO" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+					{{ partial "icon.html" "linkedin" }}
 				</a>
-				<a href="" target="_blank" rel="noopener noreferrer">
-				{{ partial "icon.html" "github" }} GitHub
+				<a href="{{ site.Params.project.repo.main }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+					{{ partial "icon.html" "github" }}
 				</a>
-				<a href="" target="_blank" rel="noopener noreferrer">
-				{{ partial "icon.html" "mail" }} Mail
+				<a href="mailto:tua-email@esempio.com" aria-label="Mail">
+					{{ partial "icon.html" "mail" }}
 				</a>
 			</div>
-		</div>
+		</details>
 	</div>
 
 	{{ with site.Menus.main }}
@@ -55,3 +52,12 @@
 	</nav>
 	{{ end }}
 </header>
+
+<script>
+	document.addEventListener("click", function (event) {
+		var dropdown = document.getElementById("contacts-dropdown");
+		if (dropdown && dropdown.open && !dropdown.contains(event.target)) {
+			dropdown.removeAttribute("open");
+		}
+	});
+</script>

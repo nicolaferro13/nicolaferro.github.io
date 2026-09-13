@@ -28,7 +28,7 @@ body.dark #site-header-logo .logo-dark {
   border-radius: 6px;
   border: 1px solid rgba(220, 220, 220, .35);
 /*  color: #6b7280; */
-  color: rgba(220 220, 220, .35); /* ReachMe_Word Not Triggered  */
+  color: rgba(220, 220, 220, .35); /* ReachMe_Word Not Triggered  */
   font-size: 0.85rem;
   user-select: none;
 }

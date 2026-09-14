@@ -8,8 +8,8 @@
   --background: rgb(255 255 255);
 /*  --background-subtle: rgb(200 200 200 / .1); */
 
-  --background-subtle: rgba(0, 0, 0, .35); /*Header menu (current page selected), badge*//* TESTED*/
-  --background-hover: rgba(0, 0, 0, .35); /*Header menu (selection hovered)*//* TESTED */
+  --background-subtle: rgba(200, 200, 200, 1); /*Header menu (current page selected), badge*//* TESTED*/
+  --background-hover: rgba(240, 240, 240, 1); /*Header menu (selection hovered)*//* TESTED */
 /*  --background-dim: rgb(247 247 247 / .25); */
   --background-dim: rgba(0, 0, 225 / .25); /*?*/ /* TESTED */
 
@@ -18,7 +18,7 @@
 /*  --color-fade: rgb(153 153 153); */
   --color-fade: rgba(255, 0, 0, 1); /*Header menu text*//* TESTED */
 /* --color-nav: rgb(0 0 0 .7); */
-  --color-nav: rgba(255, 255, 0, 1); /*Header theme selection icon; Header hover/* TESTED */
+  --color-nav: rgba(100, 100, 100 , 1); /*Header theme selection icon; Header hover/* TESTED */
 
   --box-shadow: 0 25px 50px -12px rgb(0 0 0/ .2);
 

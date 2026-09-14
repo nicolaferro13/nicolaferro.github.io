@@ -16,7 +16,7 @@
 /*  --color: rgb(34 40 40); */
   --color: rgba(16, 16, 16, 1); /* Main Title and subtitles*//* TESTED */
 /*  --color-fade: rgb(153 153 153); */
-  --color-fade: rgba(255, 0, 0, 1); /*Header menu text*//* TESTED */
+  --color-fade: rgba(100, 100, 100, 1); /*Header menu text*//* TESTED */
 /* --color-nav: rgb(0 0 0 .7); */
   --color-nav: rgba(100, 100, 100 , 1); /*Header theme selection icon; Header hover/* TESTED */
 

@@ -8,14 +8,17 @@
   --background: rgb(255 255 255);
 /*  --background-subtle: rgb(200 200 200 / .1); */
 
-  --background-subtle: rgb(225, 0, 0, .35); /* TESTED*/
-  --background-hover: rgb(0, 225, 0, .35); /* TESTED */
+  --background-subtle: rgba(0, 0, 0, .35); /*Header menu (current page selected), badge*//* TESTED*/
+  --background-hover: rgba(0, 0, 0, .35); /*Header menu (selection hovered)*//* TESTED */
 /*  --background-dim: rgb(247 247 247 / .25); */
-  --background-dim: rgb(0, 0, 225 / .25); /* TESTED */
+  --background-dim: rgba(0, 0, 225 / .25); /*?*/ /* TESTED */
 
-  --color: rgb(34 40 40);
-  --color-fade: rgb(153 153 153);
-  --color-nav: rgb(0 0 0/ .7);
+/*  --color: rgb(34 40 40); */
+  --color: rgba(0, 255, 0, 1); /* TESTED */
+/*  --color-fade: rgb(153 153 153); */
+  --color-fade: rgba(255, 0, 0, 1); /* TESTED */
+/* --color-nav: rgb(0 0 0 .7); */
+  --color-nav: rgba(255, 255, 0, 1); /* TESTED */
 
   --box-shadow: 0 25px 50px -12px rgb(0 0 0/ .2);
 

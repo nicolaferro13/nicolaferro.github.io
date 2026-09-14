@@ -40,7 +40,7 @@ body.dark #site-header-logo .logo-dark {
 
 #contacts-dropdown[open] #contacts-trigger {
 /*  background-color: #6b7280; */
-/*  background-color: rgba(0, 255, 0, 1); /* ReachMe Button Triggered
+    background-color: var(--background-subtle); /* ReachMe Button Triggered */
     color: var(--color-nav);  /* ReachMe_Word Triggered */
 }
 

@@ -28,7 +28,8 @@ body.dark #site-header-logo .logo-dark {
   border-radius: 6px;
   border: 1px solid rgba(200, 200, 200, .35);
 /*  color: #6b7280; */
-  color: rgba(200, 200, 200, .35); /* ReachMe_Word Not Triggered  */
+/*  color: rgba(200, 200, 200, .35); */
+  color: var(--color-nav); /* ReachMe_Word Not Triggered  */
   font-size: 0.85rem;
   user-select: none;
 }
@@ -43,7 +44,7 @@ body.dark #site-header-logo .logo-dark {
 /*  background-color: #6b7280; */
 /*  background-color: rgba(0, 255, 0, 1); /* ReachMe Button Triggered
 /*  color: #ffffff; */
-    color: rgba(200, 200, 200, .35); /* ReachMe_Word Triggered */
+    color: var(--color-nav);  /* ReachMe_Word Triggered */
 }
 
 #contacts-dropdown .contacts-menu {
@@ -55,12 +56,12 @@ body.dark #site-header-logo .logo-dark {
   flex-direction: column;
   gap: 2px;
 /*  background-color: #6b7280; /* grigio fisso: uguale in dark e light mode */
-  background-color: rgba(220, 220, 220, .35); /* Dropdown window color */
+  background-color: rgba(220, 220, 220, 1); /* Dropdown window color */
 /*  border-radius: 8px; */
   border-radius: 6px;
   padding: 6px;
   min-width: 44px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+/*  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
   z-index: 1000;
 }
 
@@ -83,7 +84,7 @@ body.dark #site-header-logo .logo-dark {
 
 #contacts-dropdown .contacts-menu a:hover {
 /*  background-color: rgba(255, 255, 255, 0.15); */
-/*  background-color: rgba(0, 255, 0, 1); /*TESTED*/ /* Dropdown window hover color*/
+    background-color: var(--background-hover); /*TESTED*/ /* Dropdown window hover color*/
 }
 
 #contacts-dropdown .contacts-menu svg {

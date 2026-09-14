@@ -8,7 +8,7 @@
   --background: rgb(255 255 255);
 /*  --background-subtle: rgb(200 200 200 / .1); */
 
-  --background-subtle: rgba(200, 200, 200, 1); /*Header menu (current page selected), badge*//* TESTED*/
+  --background-subtle: rgba(240, 240, 240, 1); /*Header menu (current page selected), badge*//* TESTED*/
   --background-hover: rgba(240, 240, 240, 1); /*Header menu (selection hovered)*//* TESTED */
 /*  --background-dim: rgb(247 247 247 / .25); */
   --background-dim: rgba(0, 0, 225 / .25); /*?*/ /* TESTED */

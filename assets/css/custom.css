@@ -26,7 +26,7 @@ body.dark #site-header-logo .logo-dark {
   list-style: none;
   padding: 6px 14px;
   border-radius: 6px;
-  border: 1px solid rgba(220, 220, 220, .35);
+  border: 1px solid rgba(200, 200, 200, .35);
 /*  color: #6b7280; */
   color: rgba(200, 200, 200, .35); /* ReachMe_Word Not Triggered  */
   font-size: 0.85rem;

@@ -11,7 +11,7 @@
   --background-subtle: rgba(240, 240, 240, 1); /*Header menu (current page selected), badge*//* TESTED*/
   --background-hover: rgba(240, 240, 240, 1); /*Header menu (selection hovered)*//* TESTED */
 /*  --background-dim: rgb(247 247 247 / .25); */
-  --background-dim: rgba(0, 0, 225 / .25); /*?*/ /* TESTED */
+/*  --background-dim: rgba(0, 0, 225 / .25); /*?*/ /* TESTED */
 
 /*  --color: rgb(34 40 40); */
   --color: rgba(16, 16, 16, 1); /* Main Title and subtitles*//* TESTED */

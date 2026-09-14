@@ -79,9 +79,9 @@ body.dark #site-header-logo .logo-dark {
   color: rgba(255, 255, 255, 1);
 }
 
-#contacts-dropdown .contacts-menu a:hover {
+#contacts-dropdown .contacts-menu a:not(.active):hover {
 /*  background-color: rgba(255, 255, 255, 0.15); */
-    background-color: var(--background-hover); /*TESTED*/ /* Dropdown window hover color*/
+    background: var(--background-hover); /*TESTED*/ /* Dropdown window hover color*/
 }
 
 #contacts-dropdown .contacts-menu svg {

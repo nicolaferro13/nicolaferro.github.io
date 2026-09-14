@@ -73,10 +73,10 @@ body.dark #site-header-logo .logo-dark {
 }
 
 #contacts-dropdown .contacts-menu a[aria-label="Mail"] svg {
-  color: #333333;
+  color: var(--color);
 }
 :root[data-color="dark"] #contacts-dropdown .contacts-menu a[aria-label="Mail"] svg {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
 }
 
 #contacts-dropdown .contacts-menu a:hover {

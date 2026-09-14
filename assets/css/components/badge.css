@@ -1,4 +1,4 @@
-.badge {  /*  */
+.badge {  /* Controls section-selector position (header) and badge background and font(over the name) */
   display: inline-block;
   align-items: center;
   padding: var(--padding_d2) var(--padding);

@@ -50,11 +50,11 @@
   padding: var(--padding_d2) var(--padding);
 }
 
-/*.hero-section .badge {
+.hero-section .badge {
   text-transform: uppercase;
   letter-spacing: .16em;
   margin-bottom: var(--padding_x2);
-} */
+}
 
 @media (min-width: 744px) {
   .hero-section {

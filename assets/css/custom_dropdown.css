@@ -68,20 +68,19 @@ body.dark #site-header-logo .logo-dark {
   justify-content: center;
   padding: 8px;
   border-radius: 6px;
-/*  color: #ffffff; */
-/*  color: rgba(255, 0, 0, 1); /* Dropdown window back color  */
+
 }
 
 #contacts-dropdown .contacts-menu a[aria-label="Mail"] svg {
-  color: var(--color);
+  fill: #333333 !important;
 }
 :root[data-color="dark"] #contacts-dropdown .contacts-menu a[aria-label="Mail"] svg {
-  color: rgba(255, 255, 255, 1);
+  fill: #ffffff !important;
 }
 
+
 #contacts-dropdown .contacts-menu a:not(.active):hover {
-/*  background-color: rgba(255, 255, 255, 0.15); */
-    background: var(--background-hover); /*TESTED*/ /* Dropdown window hover color*/
+    background: rgba(240,240,240,1); /*TESTED*/ /* Dropdown window hover color*/
 }
 
 #contacts-dropdown .contacts-menu svg {

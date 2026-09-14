@@ -3,22 +3,23 @@
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-  --primary: rgb(245 212 31);
+/*  --primary: rgba(220, 220, 220, 1); */
 
-  --background: rgb(255 255 255);
-  --background-subtle: rgb(200 200 200 / .1);
-  --background-hover: rgb(220, 220, 220, .35);
-  --background-dim: rgb(247 247 247 / .25);
+  --background: rgba(255, 255, 255, 1);
 
-  --color: rgb(34 40 40);
-  --color-fade: rgb(153 153 153);
-  --color-nav: rgb(0 0 0/ .7);
+  --background-subtle: rgba(240, 240, 240, 1); /*Header menu (current page selected), badge*//* TESTED*/
+  --background-hover: rgba(240, 240, 240, 1); /*Header menu (selection hovered)*//* TESTED */
+  --background-dim: rgba(255, 255, 255, 1); /*Footer*/ /* TESTED */
+
+  --color: rgba(16, 16, 16, 1); /* Main Title and subtitles*//* TESTED */
+  --color-fade: rgba(100, 100, 100, 1); /*Header menu text*//* TESTED */
+  --color-nav: rgba(100, 100, 100 , 1); /*Header theme selection icon; Header hover/* TESTED */
 
   --box-shadow: 0 25px 50px -12px rgb(0 0 0/ .2);
 
-  --model-background: #ffffff;
+  --model-background: rgba(255,255,255,1);
   --model-foreground: rgb(247 247 247/ .25);
-  --model-box-shadow: 0 8px 32px 0 rgb(31 38 135/ .37);
+  --model-box-shadow: 0 8px 32px 0 rgb(31 38 135/ .37); /*?*/
 
   --padding: 12px;
   --padding_d2: 6px;
@@ -27,9 +28,9 @@
   --blur: 4px;
   --model-blur: 10px;
 
-  --border: rgb(0 0 0/ .063);
-  --border-nav: rgb(0 0 0/ .133);
-  --border-subtle: rgb(200 200 200 / .2);
+  --border: rgba(200, 200, 200, 1);
+  --border-nav: rgba(200, 200, 200 ,1);
+  --border-subtle: rgba(200, 200, 200, 1);
 
   --radius: 6px;
 
@@ -73,7 +74,7 @@
 }
 
 :root[data-color="dark"] {
-  --primary: rgb(245 212 31/ .8);
+/*  --primary: rgb(245 212 31/ .8); */
 
   --background: rgb(16 16 16);
   --background-subtle: rgb(255 255 255/ .05);

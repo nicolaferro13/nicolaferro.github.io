@@ -42,15 +42,15 @@ params:
     startYear: ~
     presentYear: 2026
 
-#    repo:
-#      main:
+    repo:
+      main: nicolaferro13/nicolaferro.github.io
     themeColor:
       light: '#ffffff'
       dark: '#101010'
 
   author:
     name: Nicola Ferro
-#    url: https://github.com/nicolaferro13
+    url: https://github.com/nicolaferro13
 
   pagination:
     size: 6
@@ -66,9 +66,9 @@ menus:
       weight: 1
       params:
         icon: home
-    - identifier: docs
+    - identifier: projects
       name: Projects
-      pageRef: /docs
+      pageRef: /projects
       weight: 2
       params:
         icon: menu_book

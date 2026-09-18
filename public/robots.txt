@@ -5,12 +5,10 @@ User-agent: Applebot
 Allow: /
 
 User-agent: *
-Disallow: /blog/hello-world/
+Disallow: /blog/2026_9_16_how_this_site_was_born/
 Disallow: /
 Disallow: /blog/
 Disallow: /about/
-Disallow: /docs/
-Disallow: /docs/hello-world/
-Disallow: /docs/modules/
-Disallow: /docs/overview/
+Disallow: /projects/deformed-fuel-bundle/
+Disallow: /projects/overview/
 Disallow: /page/

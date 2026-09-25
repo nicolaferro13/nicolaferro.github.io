@@ -43,14 +43,14 @@ params:
     presentYear: 2026
 
     repo:
-      main: nicolaferro13/nicolaferro.github.io
+      main: https://github.com/nicolaferro13
     themeColor:
       light: '#ffffff'
       dark: '#101010'
 
   author:
     name: Nicola Ferro
-    url: https://github.com/nicolaferro13
+    url:
 
   pagination:
     size: 6

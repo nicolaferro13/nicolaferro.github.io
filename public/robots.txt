@@ -1,0 +1,14 @@
+User-agent: Googlebot
+User-agent: YandexBot
+User-agent: baiduspider
+User-agent: Applebot
+Allow: /
+
+User-agent: *
+Disallow: /blog/how-this-site-was-born/
+Disallow: /
+Disallow: /blog/
+Disallow: /about/
+Disallow: /projects/deformed-fuel-bundle/
+Disallow: /projects/overview/
+Disallow: /page/

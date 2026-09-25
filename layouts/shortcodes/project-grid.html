@@ -1,0 +1,39 @@
+{{/* Shortcode: {{< project-grid >}}  — da usare nel markdown di content/en/projects/_index.md */}}
+{{ $pages := where site.RegularPages "Section" "projects" }}
+
+{{ $allTags := slice }}
+{{ range $pages }}
+	{{ range .Params.tags }}
+		{{ $allTags = $allTags | append . }}
+	{{ end }}
+{{ end }}
+{{ $allTags = $allTags | uniq | sort }}
+
+<div class="tag-filter-grid" data-tag-scope="projects">
+
+	{{ if gt (len $allTags) 0 }}
+	<div class="tag-filter-bar">
+		{{ range $allTags }}
+		<button type="button" class="tag-filter-btn tag-badge" data-tag="{{ . }}">
+			{{ . | humanize | title }}
+		</button>
+		{{ end }}
+	</div>
+	{{ end }}
+
+	<div class="project-grid">
+		{{ range $pages }}
+		<a class="project-card" href="{{ .RelPermalink }}" data-tags="{{ delimit .Params.tags "," }}">
+			<h3>{{ .Title }}</h3>
+			{{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+			{{ if .Params.tags }}
+			<div class="tag-list">
+				{{ range .Params.tags }}
+				<span class="tag-badge" data-tag="{{ . }}">{{ . | humanize | title }}</span>
+				{{ end }}
+			</div>
+			{{ end }}
+		</a>
+		{{ end }}
+	</div>
+</div>

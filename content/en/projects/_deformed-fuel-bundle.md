@@ -2,6 +2,7 @@
 title: Deformed fuel bundle
 subtitle: Numerical simulation of turbulent flows in deformed pin bundle geometries
 slug: deformed-fuel-bundle
+tags: ["work-in-progress"]
 ---
 {{< tech-badge label="Slurm" color="1FBCFF" >}}
 {{< tech-badge label="Fortran" logo="fortran" color="734F96" >}}

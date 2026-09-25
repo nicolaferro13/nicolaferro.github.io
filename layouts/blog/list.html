@@ -43,7 +43,26 @@
 		{{ partial "site/header.html" . }}
 		<main>
 			<section>
-				<div id="section-body">
+				<div id="section-body" class="tag-filter-grid" data-tag-scope="blog">
+					{{ $pages := .Pages }}
+					{{ $allTags := slice }}
+					{{ range $pages }}
+						{{ range .Params.tags }}
+							{{ $allTags = $allTags | append . }}
+						{{ end }}
+					{{ end }}
+					{{ $allTags = $allTags | uniq | sort }}
+
+					{{ if gt (len $allTags) 0 }}
+					<div class="tag-filter-bar">
+						{{ range $allTags }}
+						<button type="button" class="tag-filter-btn tag-badge" data-tag="{{ . }}">
+							{{ . | humanize | title }}
+						</button>
+						{{ end }}
+					</div>
+					{{ end }}
+
 					{{ partial "blog/list-body.html" . }}
 				</div>
 				{{ partial "blog/list-footer.html" . }}
@@ -54,6 +73,7 @@
 
 	{{- $js := slice
 		(resources.Get "js/components/dropdown.js")
+		(resources.Get "js/components/tag-filter.js")
 		(resources.Get "js/site/color-preference.js")
 	| resources.Concat "assets/js/blog-list.js" | minify | fingerprint }}
 	<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.integrity }}"></script>

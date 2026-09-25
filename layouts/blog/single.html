@@ -16,11 +16,9 @@
   <link rel="canonical" href="{{ .Permalink }}">
 
   {{ $cssFiles := slice
+		(resources.Get "css/reset.css")
 		(resources.Get "css/custom_theme.css")
 		(resources.Get "css/custom_dropdown.css")
-		(resources.Get "css/custom_subtitle.css")
-
-		(resources.Get "css/reset.css")
 		(resources.Get "css/components/alert.css")
 		(resources.Get "css/components/button.css")
 		(resources.Get "css/components/dropdown.css")
@@ -68,15 +66,12 @@
 
         <header id="article-header">
           <h1 style="view-transition-name: {{ .RelPermalink | anchorize }}">{{ .Title | .RenderString }}</h1>
-
-                    {{ with .Params.subtitle }}
-                    <p class="project-subtitle">{{ . }}</p>
-                    {{ end }}
-
+					{{ with .PublishDate }}
+					<time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ .Format "2 January 2006" }}</time>
+					{{ end }}
 					{{ with .Params.summary }}
 					<p>{{ . | $.RenderString }}</p>
 					{{ end }}
-
 					{{ if .Params.tags }}
 					<div class="tag-list">
 						{{ range .Params.tags }}
@@ -84,7 +79,6 @@
 						{{ end }}
 					</div>
 					{{ end }}
-
 				</header>
 
 				<div id="article-body">
@@ -105,7 +99,6 @@
 	{{ $js := slice
 		(resources.Get "js/components/dropdown.js")
 		(resources.Get "js/components/tab-group.js")
-		(resources.Get "js/components/tag-filter.js")
 		(resources.Get "js/site/color-preference.js")
 		(resources.Get "js/site/off-canvas.js")
 		(resources.Get "js/site/table-of-contents.js")
